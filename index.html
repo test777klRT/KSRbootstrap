@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!--  <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.css"> -->
+ <link rel="stylesheet" href="css/main.css">
+
+ <title>Document</title>
+</head>
+
+<body>
+  <!-- Preloader -->
+	<div id="preloader">
+	  <div id="load"></div>
+			<div class="logo-ksr">
+				<img class="ouyside" src="img/logoOutSIDE.svg" alt="...">
+				<img class="inside" src="img/logoInSIDE.svg" alt="...">
+			</div>
+	</div>
+ <!--nav-bar-->
+ <nav class="navbar navbar-expand-lg bg-light fixed-top">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">
+      <img src="img/logo/favicon.svg" alt="" width="50" height="50" class="d-inline-block align-text-top">
+      <div class="logo-txt">
+        Комплексные <br>
+        Cервсиные <br>
+        Решения
+      </div> 
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav nav-pills">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#intro">главная</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">о компании</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#services">услуги</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">контакты</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+ <!--/nav-bar-->
+ <!-- Section: intro -->
+ <section id="intro" class="intro">
+
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="2000">
+        <div class="cstOverlay"></div>
+        <img src="img/invert/it2.png" class="invert" alt="...">
+										<img src="img/AutomationEngineer.jpg" class="d-block" alt="...">
+										<div class="carousel-caption d-none d-md-block">
+												<h2>Информационные технологии</h2>
+												<h6>Удаленный мониторинг, сопровождение компьютерных систем.</h6>
+										</div>
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <div class="cstOverlay"></div>
+        <img src="img/invert/ACS.png" class="invert" alt="...">
+										<img src="img/1_zhSnnY70u8dtFuGSXAImjw.png" class="d-block" alt="...">
+										
+										<div class="carousel-caption d-none d-md-block">
+												<h2>Автоматизированные системы управления</h2>
+												<h6>Пуско-наладочные работы, сервисное обслуживание.</h6>
+										</div>
+      </div>
+      <div class="carousel-item " data-bs-interval="2000">
+        <div class="cstOverlay"></div>
+        <img src="img/invert/-Generator-.png" class="invert" alt="...">
+										<img src="img/Robotics-1.jpeg" class="d-block" alt="...">
+										<div class="carousel-caption d-none d-md-block">
+												<h2>Генерация электроэнергии</h2>
+												<h6>Аренда контейнерных ДГУ и сервис</h6>
+										</div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+
+    <div class="slogan">
+			<h2>Комплексные Сервисные Решения</h2>
+			<h6>Современный подход к задачам любой сложности</h6>
+			<h4> <img src="img/logo/favicon.svg" alt="..." width="25" height="25">Эффективные решения по обслуживанию оборудования<br>
+				<img src="img/logo/favicon.svg" alt="..." width="25" height="25">Комплексный подход к сервисной деятельности<br>
+				<img src="img/logo/favicon.svg" alt="..." width="25" height="25">Внедрение ИТ-систем в технологические процессы</h4>
+		</div>
+
+
+  </div>
+
+ </section>
+ <!-- /Section: intro -->
+ <!-- Section: about -->
+ <section id="about">
+  <div class="about_wraper">
+    <ul class="nav nav-tabs" id="myTab" role="tablist">
+      <li class="nav-item" role="presentation">
+        <button class="nav-link" id="disabled-tab" data-bs-toggle="tab" data-bs-target="#disabled-tab-pane" type="button" role="tab" aria-controls="disabled-tab-pane" aria-selected="false" disabled>о компании</button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">география работ</button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">о нас</button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">охрана труда</button>
+      </li>
+    </ul>
+    <div class="tab-content" id="myTabContent">
+      <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+        <div class="container cstm__container cstm__container-map">
+          <div class="listWraper">
+            <h5>Деятельность компании осуществляется в следующих регионах:</h5>
+          <ul>
+            <li data-bs-toggle="offcanvas" data-bs-target="#Moscow" aria-controls="Moscow">Москва</li>
+            <li data-bs-toggle="offcanvas" data-bs-target="#NF" aria-controls="NF">ХМАО Нефтеюганский район</li>
+            <li data-bs-toggle="offcanvas" data-bs-target="#Uvat" aria-controls="Uvat">ХМАО Уватский район</li>
+            <li data-bs-toggle="offcanvas" data-bs-target="#Vancore" aria-controls="Vancore">Красноярский край</li>
+            <li data-bs-toggle="offcanvas" data-bs-target="#Tomsk" aria-controls="Tomsk">Томская область</li>
+          </ul>
+          </div>
+         <div class="map__wraper">
+          <img class="map" src="img/russia_map2.svg" alt="...">
+
+          <div class="geoTeg geaTegPosit" data-bs-toggle="popover" data-bs-custom-class="custom-popover" data-bs-placement="top" data-bs-title="Ханты-Мансийский автономный округ" data-bs-trigger="hover" 
+									data-bs-content="Уватский район">
+										<div class="geoTeg-wraper" data-bs-toggle="offcanvas" data-bs-target="#Uvat" aria-controls="Uvat">
+											<img src="img/duotone_line.svg" alt="...">
+										</div>
+									</div>
+	
+									<div class="geoTeg geaTegPosit1" data-bs-toggle="popover" data-bs-custom-class="custom-popover" data-bs-placement="top" data-bs-title="Красноярский край" data-bs-trigger="hover" 
+									data-bs-content="Ванкорсоке месторождение">
+										<div class="geoTeg-wraper" data-bs-toggle="offcanvas" data-bs-target="#Vancore" aria-controls="Vancore">
+											<img src="img/duotone_line.svg" alt="...">
+										</div>
+									</div>
+	
+									<div class="geoTeg geaTegPosit2" data-bs-toggle="popover" data-bs-custom-class="custom-popover" data-bs-placement="top" data-bs-title="Томская область" data-bs-trigger="hover" 
+									data-bs-content="Снежное месторождение">
+										<div class="geoTeg-wraper" data-bs-toggle="offcanvas" data-bs-target="#Tomsk" aria-controls="Tomsk">
+											<img src="img/duotone_line.svg" alt="...">
+										</div>
+									</div>
+	
+									<div class="geoTeg geaTegPosit3"  data-bs-toggle="popover" data-bs-custom-class="custom-popover" data-bs-placement="top" data-bs-title="Москва" data-bs-trigger="hover" 
+									data-bs-content="Центральный офис и инженерный центр">
+										<div class="geoTeg-wraper" data-bs-toggle="offcanvas" data-bs-target="#Moscow" aria-controls="Moscow">
+											<img src="img/duotone_line.svg" alt="...">
+										</div>
+									</div>
+	
+									<div class="geoTeg geaTegPosit4" data-bs-toggle="popover" data-bs-custom-class="custom-popover" data-bs-placement="top" data-bs-title="Ханты-Мансийский автономный округ" data-bs-trigger="hover" 
+									data-bs-content="Нефтеюганский район">
+										<div class="geoTeg-wraper" data-bs-toggle="offcanvas" data-bs-target="#NF" aria-controls="NF">
+											<img src="img/duotone_line.svg" alt="...">
+										</div>
+									</div>
+
+
+         </div>
+          
+
+
+        </div>
+      </div>
+      <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+        <div class="container cstm__container">
+          <h5>История компании</h5>
+          <p>ООО «Комплексные Сервисные Решения» - компания, созданная в 2013 году и объединившая опыт и знания специалистов в области сервисного обслуживания
+            электрооборудования современных буровых установок с регулируемыми приводами на постоянном и переменном токе. Основным направлением деятельности
+            компании является предоставление сервисного обслуживания электрооборудования буровых установок отечественного и импортного производства.</p>
+          <p >Спецификой деятельности ООО «Комплексные Сервисные Решения» является проведение пуско-наладочных работ и ввод в эксплуатацию автоматизированных систем управления буровых установок (АСУ БУ), эксплуатационное обслуживание электрооборудования БУ, обслуживание силовых приводов переменного и постоянного тока «Siemens», «ABB», «Alen Bradley».</p>
+          <p >C 2019 года мы предоставляем услуги по аренде ДГУ, арендный парк компании включает дизельные генераторные установки на базе силовых агрегатов Cummins номинальной мощностью 400 кВт и 600 кВт, каждая из которых может работать индивидуально или в составе комплекса требуемой суммарной мощности. Важной особенностью наших ДГУ является их контейнерное исполнение, что придает им высокую готовность к транспортировке и к запуску – сразу по прибытию в пункт использования, и, собственно, высокую мобильность - возможность перевозить любым видом транспорт. 
+            Аренда ДГУ предполагает обязательное присутствие сервисных инженеров "КСР"", которые находятся непосредственно в месте эксплуатации оборудования 24 часа в сутки 7 дней в неделю.</p>
+          <p >Информационные технологии уже давно являются неотъемлемой частью нашей жизни, в связи с этим "КСР" с 2020 года активно внедряет IT-системы в нефтегазовую отрасль. Современные технологии позволили автоматизировать основные процессы и структурировать существующий порядок работы, мы предлагаем услуги по внедрению удаленного мониторинга за состоянием Вашего оборудования по средствам WEB-приложений разработаных индивидульно, согласно ваших потребностей.</p>
+          <p >Знания и богатейший опыт работы наших специалистов в области АСУ и ТП позволяет нам решать любые задачи, а профессиональная подготовка – находить грамотные и оптимальные решения.
+            Основные принципы нашей деятельности – профессионализм, качество предоставляемых услуг, ответственность перед заказчиками и партнерами. Заказчиками ООО «КСР» являются ООО «РН-Бурение» и ООО «Газпром-Бурение».</p>
+          <p >Компания сотрудничает с поставщиками электротехнического оборудования передовых производителей, такими, как «Siemens», «ABB», «Schneider Electric», «Bentec», являющимися мировыми лидерами в области автоматизации
+            процессов, разработке и производстве новейших и надежных комплектующих.</p>
+          <h5>Цели компании</h5>
+          <p >Развитие эффективной местной структуры бизнеса, которая бы обеспечивала долгосрочную поддержку деятельности наших заказчиков, крупнейших российских нефтегазовых компаний.
+            Мы нацелены на решение их задач и учет их приоритетов для расширения и оптимизации их деятельности.</p>
+        </div>
+      </div>
+      <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">
+        <div class="container cstm__container">
+          <h5>Руководящие принципы «КСР» в области охраны труда, техники безопасности и охраны окружающей среды.</h5> 
+          <p>Компания «КСР» сохраняет устойчивую приверженность самым высоким стандартам в области охраны здоровья и безопасности наших сотрудников, 
+          заказчиков, подрядчиков, а также охраны окружающей среды в местах проживания и работы. Долгосрочный успех деятельности компании «КСР» зависит от нашего стремления к непрерывному повышению качества ниших услуг, 
+          заботясь при этом о сохранности здоровья людей и окружающей среды. Особое внимание уделяется охране здоровья, соблюдению техники безопасности, защите окружающей среды, повышению качества и деловой репутации. 
+          Такие обязательства служат интересам наших заказчиков, сотрудников, партнеров, а также интересам общества, в котором мы работаем и живем.</p>
+            <br>
+            <h5>Система управления ОТ, ТБ и ООС.</h5>
+              <p >Система управления ОТ, ТБ и ООС «КСР» определяет принципы охраны здоровья, безопасности и защиты окружающей среды, в соответствии с которыми мы работаем по всей России.
+                Менеджмент доводит концепцию ОТ, ТБ и ООС до сведения всех сотрудников, заказчиков, подрядчиков и третьих лиц, работающих с нами. Все подразделения «КСР» должны предоставить убедительные доказательства выполнения требований данной системы.
+                Система управления ОТ, ТБ и ООС состоит из восьми взаимосвязанных компонентов:
+              </p>
+                <ul>
+                  <li>Приверженность, лидерство и личная ответственность;</li>
+                  <li>Политики и цели;</li>
+                  <li>Организация и ресурсы;</li>
+                  <li>Управление подрядчиками и поставщиками;</li>
+                  <li>Управление рисками;</li>
+                  <li>Бизнес-процессы;</li>
+                  <li>Контроль и улучшение показателей;</li>
+                  <li>Аудиты и обзоры.</li>
+                </ul>
+                Их постоянное усовершенствование достигается за счет проверок соответствия:
+                <ul>
+                  <li>Рабочих стандартов и процедур (контроль);</li>
+                  <li>Системы управления (корректирование);</li>
+                  <li>Посредством изменения системы управления (улучшение).</li>
+                </ul>
+                <br>
+
+            <h5>Политика в области стандартов качества, охраны здоровья, труда и охраны окружающей среды.</h5>
+            <p>Наша основная цель как поставщика технологических решений — предоставление нашим заказчикам услуг по оптимизации технологических показателей с помощью широкого ассортимента продуктов и услуг.
+              Мы уделяем особое внимание развитию инновационных технологий, способных приносить высокие результаты для наших заказчиков.
+              Соблюдение стандартов качества является обязанностью всех сотрудников. Кроме того, руководители среднего звена играют важную роль в информировании и выполнении политик и стандартов качества и обеспечении соблюдения этих требований своими подчиненными. Мы принимаем на себя следующие обязательства:
+              <ul>
+                <li>Всегда и при любых обстоятельствах обеспечивать и стремиться к улучшению охраны труда, здоровья и безопасности наших сотрудников;</li>
+                <li>Устранять случаи несоответствия требованиям качества и предупреждать несчастные случаи и происшествия;</li>
+                <li>Соблюдать установленные заказчиками требования и обеспечивать неизменно высокий уровень соответствия требованиям заказчиков;</li>
+                <li>Открыто обсуждать с заинтересованными сторонами и добиваться понимания нашей политики, стандартов, программ и действий в области обеспечения стандартов качества, охраны здоровья, труда и охраны окружающей среды. Вознаграждать за особые достижения в этой области.</li>
+              </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+ </section>
+ <!-- /Section: about -->
+ <!-- Section: services -->
+ <section id="services">
+
+  <div class="services_wraper">
+    <div class="services_wraper-content d-flex align-items-start justify-content-center">
+      <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+        <div class="nav-link active serv__btn" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true"><div class="img__wraper"><img src="img/logo/favicon.svg" alt="" width="50" height="50" class="d-inline-block"></div><div class="txt__wraper">асу</div></div>
+        <div class="nav-link serv__btn" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false"><div class="img__wraper"><img src="img/logo/favicon.svg" alt="" width="50" height="50" class="d-inline-block"></div><div class="txt__wraper">it</div></div>
+        <div class="nav-link serv__btn" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false"><div class="img__wraper"><img src="img/logo/favicon.svg" alt="" width="50" height="50" class="d-inline-block"></div><div class="txt__wraper">дгу</div></div>
+      </div>
+      <div class="tab-content" id="v-pills-tabContent">
+        <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab" tabindex="0">
+          <div class="container cstm__container">
+            <h4>Сервис для буровых установок (БУ).</h4>
+            <h5>Под сервисом для БУ понимается комплексный подход к эксплуатации и сервисному обслуживанию:</h5>
+            <ul>
+              <li>Автоматизированной системы управления (АСУ);</li>
+              <li>Электрооборудования:
+                <ul>
+                  <li>Приводов главных механизмов;</li>
+                  <li>Приводов вспомогательных механизмов;</li>
+                  <li>Силового верхнего привода;</li>
+                  <li>Системы теплоснабжения;</li>
+                </ul>
+              </li>
+            </ul>
+            <h5>Мы предлагаем широкий спектр услуг, охватывающий весь сервисный цикл:</h5>
+            <ul>
+              <li>Пуско-наладочные работы и ввод в эксплуатацию после проведения монтажных работ.</li>
+              <li>Эксплуатация, ревизия и регламентное техническое обслуживание (ТО) электрооборудования и АСУ буровых установок.</li>
+              <li>Техническое сопровождение и контроль работы оборудования.</li>
+              <li>Осуществление текущего и аварийного ремонта оборудования, восстановление ресурса оборудования путем замены неисправных узлов и агрегатов.</li>
+              <li>Закупка и доставка всех необходимых расходных материалов и запасных частей.</li>
+              <li>Поставка ЗИП и создание резервного фонда.</li>
+              <li>Испытания узлов после текущего ремонта.</li>
+              <li>Сбор данных о состоянии оборудования, остановках, авариях и текущих неисправностях.</li>
+              <li>Выполнение части работ по демонтажу электрооборудования при консервации.</li>
+              <li>Планирование превентивных мероприятий и предупреждение аварийного выхода из строя оборудования, снижение числа отказов и аварий за счет проведения своевременного ТО, профилактической наладки и ремонта, своевременного выявления неисправных элементов и узлов, определения причин выхода из строя, разработки рекомендаций по предотвращению возможных нестандартных (аварийных) ситуаций.</li>
+              <li>Подготовка предложений по повышению эффективности эксплуатации, восстановлению и продлению ресурса оборудования, снижению затрат на обслуживание и ремонт.</li>
+              <li>Участие в расследовании и ликвидации отказов и аварий.</li>
+              <li>Постоянное повышение квалификации обслуживающего персонала (дежурного персонала).</li>
+              <li>Предоставление Заказчику суточных отчетов в электронном виде о текущем состоянии и ремонте электрооборудования буровой установки.</li>
+            </ul>
+            
+          </div>
+          
+        </div>
+        <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab" tabindex="0">
+          <div class="container cstm__container">
+            <div class="dgu__wraper">
+              <div class="dgu__wraper_txt">
+                <h5>Диагностика оборудования с приминением информационных технологий.</h5>
+            <p>Современные средства автоматизации в совокупности с нашими IT-разработками, позволяют интегрировать новую цифровую систему управления электроприводами в информационные сети Заказчика для передачи данных состояния системы, используя сетевой интерфейс сети EtherNet и WEB-сервер программируемого логического контроллера.</p>
+            <p>Предлагаем установить систему диагностики и диспетчеризации АСУ буровой установки. Основным назначением данной системы, кроме учета и контроля работы системы являются:</p>
+            <ul>
+              <li>Непрерывный мониторинг параметров АСУ буровой установки;</li>
+              <li>Предупреждения возникновения аварии;</li>
+              <li>Уменьшения времени простоя оборудовании, ввиду точного определения причины аварии и снижение времени на поиск места возникновения аварии;</li>
+              <li>Возможности быстрого оказания технической помощи (техподдержки) дежурному инженеру из любой точки страны (в принципе и мира) имеющей подключение к сети Internet;</li>
+              <li>Диагностика и ведение статистики по параметрам и режимам работы электрооборудования, что в свою очередь позволяет планировать проведение технического обслуживания по фактическому состоянию оборудования.</li>
+            </ul>
+              </div>
+              <div class="dgu__wraper_img">
+                <img class="dgu_img" src="img/servis2.png" alt="...">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab" tabindex="0">
+          <div class="container cstm__container">
+            <div class="dgu__wraper">
+              <div class="dgu__wraper_txt">
+                <h4>Генерация электроэнергии и сервис ДГУ</h4>
+                <p>Наблюдение и управление электростанцией дистанционно - это не только удобно, но также экономически эффективно, так как минимизируются расходы на выезды обслуживающего персонала.</p>
+                <p>Компания «КСР» предлагает универсальное решение по дистанционному мониторингу и управлению дизельной электростанцией, базирующееся на восьмилетнем опыте модернизации ДГУ. Разрабатываемые системы дистанционного контроля ДГУ надежны и просты в эксплуатации, реализуются на комплектующих эконом и премиум ценовых сегментов, поэтому подходят для бюджетов с любыми возможностями.</p>
+                <p>Компания работает по модульному принципу комплектации, поэтому наши клиенту выбирают тот набор параметров и функций, который необходим только для вашего производства и бюджета.</p>
+                <h5>Вы получите:</h5>
+                <ul>
+                  <li>Удобное и экономичное обслуживание дизельной электростанции:
+                    <ul>
+                      <li>автоматизированный сбор данных о текущем состоянии ДГУ;</li>
+                      <li>раннее выявление отказов, планирование сервисного обслуживания;</li>
+                      <li>учет времени наработки, количества пусков;</li>
+                      <li>расчет расхода топлива, оставшегося времени работы без дозаправки.</li>
+                    </ul>
+                  </li>
+                  <li>Оперативное принятие решений:
+                    <ul>
+                      <li>оповещение о тревогах и аварийных событиях через e-mail, SMS, push-уведомления;</li>
+                      <li>оперативного контроль и управление дизельным генератором, как с автоматизированного рабочего места оператора (ПК), так и через мобильный телефон в режиме онлайн.</li>
+                    </ul>
+                  </li>
+                  <li>Гарантированный пуск ДГУ:
+                    <ul>
+                      <li>контроль уровня заряда АКБ;</li>
+                      <li>контроль уровня топлива;</li>
+                      <li>контроль температуры охлаждающей жидкости.</li>
+                    </ul>
+                  </li>
+                  <li>Наше преимущество:
+                    <ul>
+                      <li>подключаем систему диспетчеризации к любым моделям ДГУ;</li>
+                      <li>добавляем к существующей системе диспетчеризации дополнительное оборудование: АВР, охранно-пожарную сигнализацию, а также другие инженерные системы.</li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+              <div class="dgu__wraper_img">
+                <img class="dgu_img" src="img/59ddeca0bd138db7a883e1e3baf6ad1e.png" alt="...">
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+ </section>
+ <!-- /Section: services -->
+ <!-- Section: footer -->
+<footer id="contact">
+  <div class="footer-wraper">
+
+    <div class="footer__map footer-item">
+      <script async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ab4b582d18f5dfe5446ce15665c7a780576151df654f422cccccd5f05e56a1c21&amp;lang=ru_RU&amp;scroll=true">
+      </script>
+    </div>
+
+    <div class="footer-item">
+      <div class="footer__contact">
+        <h3>наш адресс</h3>
+          117105, г.Москва, Варшавское шоссе 17, офис 22-14
+          <br> НАПИШИТЕ НАМ: <a href="mailto:info@oooksr.ru">info@oooksr.ru</a>
+          <br> ПОЗВОНИТЕ НАМ: <a href="tel:+7(499)501-15-72">+7(499)501-15-72</a> 
+      </div>
+    </div>
+
+    <div class="footer-item">
+      <div class="footer__copyrite">
+        <h3>информация</h3>
+      <div class="ulFlex">
+        <ul>
+          <li><a href="#">Заказчикам</a></li>
+          <li><a href="#">Поставщикам</a></li>
+          <li><a href="#">Соискателям</a></li>
+        </ul>
+      </div>
+      <div class="copyrite">&copy;2013-2023 Комплексные Сервисные Решения</div>
+      </div>
+    </div>
+  </div>
+
+
+</footer>
+ <!-- /Section: footer -->
+ <!--canvas-->
+
+<div class="offcanvas offcanvas-end" tabindex="-1" id="Vancore" aria-labelledby="offcanvasVancore">
+	<div class="offcanvas-header">
+			<h5 class="offcanvas-title" id="offcanvasVancore">Ванкорсоке месторождение</h5>
+			<button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+	</div>
+	<div class="offcanvas-body">
+		<div class="BGcontainerVC">
+			<div class="Content-wraper">
+				<h6>Сервисное обслуживание<br>АСУ ZJ-40DBT</h6>
+				На данному проеке наша компания оказывает следующие услуги:
+				<ul>
+					<li>Сервсиное обслуживание АСУ буровой установки
+						<ul>
+							<li>Техническое сопровождение ПЛК Simatic S7-1500</li>
+							<li>Контроль за состоянием преобразователей частоты Sinamics S120</li>
+						</ul>
+					</li>
+					<li>Сервсиное обслуживание АСУ высоковольтных комплексов управления буровыми насосам СУБН L-start
+						<ul>
+							<li>Техническое сопровождение ПЛК Simatic S7-1500</li>
+							<li>Контроль за состоянием преобразователей частоты Sinamics S120</li>
+						</ul>
+					</li>
+				</ul>
+
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="offcanvas offcanvas-end" tabindex="-1" id="NF" aria-labelledby="offcanvasNF">
+	<div class="offcanvas-header">
+			<h5 class="offcanvas-title" id="offcanvasNF">Нефтеюганский район</h5>
+			<button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+	</div>
+	<div class="offcanvas-body">
+		<div class="BGcontainerARD">
+			<div class="Content-wraper">
+				<h6>Сервисное обслуживание<br>АСУ Drillmec ARS-225</h6>
+				На данному проеке наша компания оказывает следующие услуги:
+				<ul>
+					<li>Сервсиное обслуживание АСУ буровой установки
+						<ul>
+							<li>Техническое сопровождение ПЛК Simatic S7-1500</li>
+							<li>Контроль за состоянием преобразователей частоты Sinamics S120</li>
+						</ul>
+					</li>
+					<li>Сервсиное обслуживание АСУ высоковольтных комплексов управления буровыми насосам СУБН L-start
+						<ul>
+							<li>Техническое сопровождение ПЛК Simatic S7-1500</li>
+							<li>Контроль за состоянием преобразователей частоты Sinamics S120</li>
+						</ul>
+					</li>
+				</ul>
+
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="offcanvas offcanvas-end" tabindex="-1" id="Moscow" aria-labelledby="offcanvasMoscow">
+	<div class="offcanvas-header">
+			<h5 class="offcanvas-title" id="offcanvasMoscow">Центральный офис и инженерный центр</h5>
+			<button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+	</div>
+	<div class="offcanvas-body">
+		<div class="BGcontainerMSC">
+			<div class="Content-wraper">
+				<h6>Сервисное обслуживание<br>АСУ ZJ-40DBT</h6>
+				На данному проеке наша компания оказывает следующие услуги:
+				<ul>
+					<li>Сервсиное обслуживание АСУ буровой установки
+						<ul>
+							<li>Техническое сопровождение ПЛК Simatic S7-1500</li>
+							<li>Контроль за состоянием преобразователей частоты Sinamics S120</li>
+						</ul>
+					</li>
+					<li>Сервсиное обслуживание АСУ высоковольтных комплексов управления буровыми насосам СУБН L-start
+						<ul>
+							<li>Техническое сопровождение ПЛК Simatic S7-1500</li>
+							<li>Контроль за состоянием преобразователей частоты Sinamics S120</li>
+						</ul>
+					</li>
+				</ul>
+
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="offcanvas offcanvas-end" tabindex="-1" id="Tomsk" aria-labelledby="offcanvasTomsk">
+	<div class="offcanvas-header">
+			<h5 class="offcanvas-title" id="offcanvasTomsk">Снежное месторождение</h5>
+			<button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+	</div>
+	<div class="offcanvas-body">
+		<div class="BGcontainerTK">
+			<div class="Content-wraper">
+				<h6>Сервисное обслуживание<br>АСУ DQ70BSQ-JH</h6>
+				На данному проеке наша компания оказывает следующие услуги:
+				<ul>
+					<li>Сервсиное обслуживание АСУ буровой установки
+						<ul>
+							<li>Техническое сопровождение ПЛК Simatic S7-1500</li>
+							<li>Контроль за состоянием преобразователей частоты Sinamics S120</li>
+						</ul>
+					</li>
+					<li>Сервсиное обслуживание АСУ высоковольтных комплексов управления буровыми насосам СУБН L-start
+						<ul>
+							<li>Техническое сопровождение ПЛК Simatic S7-1500</li>
+							<li>Контроль за состоянием преобразователей частоты Sinamics S120</li>
+						</ul>
+					</li>
+				</ul>
+				
+
+
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="offcanvas offcanvas-end" tabindex="-1" id="Uvat" aria-labelledby="offcanvasUvat">
+	<div class="offcanvas-header">
+			<h5 class="offcanvas-title" id="offcanvasUvat">Уватский район</h5>
+			<button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+	</div>
+	<div class="offcanvas-body">
+		<div class="BGcontainerZJ">
+			<div class="Content-wraper">
+				<h6>Сервисное обслуживание<br>АСУ ZJ-40DBT</h6>
+				На данному проеке наша компания оказывает следующие услуги:
+				<ul>
+					<li>Сервсиное обслуживание АСУ буровой установки
+						<ul>
+							<li>Техническое сопровождение ПЛК Simatic S7-1500</li>
+							<li>Контроль за состоянием преобразователей частоты Sinamics S120</li>
+						</ul>
+					</li>
+					<li>Сервсиное обслуживание АСУ высоковольтных комплексов управления буровыми насосам СУБН L-start
+						<ul>
+							<li>Техническое сопровождение ПЛК Simatic S7-1500</li>
+							<li>Контроль за состоянием преобразователей частоты Sinamics S120</li>
+						</ul>
+					</li>
+				</ul>
+
+			</div>
+		</div>
+	</div>
+</div>
+
+ <!-- Section: script -->
+
+ <script src="js/wow.min.js"></script>
+ <script src="js/jquery.min.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/app.js"></script>
+<script>
+  var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+  var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+      return new bootstrap.Popover(popoverTriggerEl)
+  })
+</script>
+			
+
+</body>
+</html>
