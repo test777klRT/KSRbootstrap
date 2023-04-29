@@ -1,0 +1,382 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
+@import "../node_modules/bootstrap/scss/carousel";
+
+html, body {
+ width: 100%;
+ height: 100%;
+}
+
+a{
+ text-decoration: none;
+}
+.nav-link{
+    color:  #666;
+}
+.nav-link:hover{
+    color:  rgba(61, 147, 121);
+ }
+
+html::-webkit-scrollbar {
+ display: none;
+}
+
+body {
+ font-weight: 300;
+ background-color: #fff;
+ position: relative;
+}
+.nav-pills{
+ --bs-nav-pills-border-radius: 1rem;
+ --bs-nav-pills-link-active-color: #fff;
+ --bs-nav-pills-link-active-bg: rgba(61, 147, 121,.4);
+}
+
+#intro, #about, #services{
+ width: 100%;
+ height: 100%;
+ position: relative;
+}
+#intro{
+ background-color: #919191;
+}
+#about, #services{
+ padding-top: 100px;
+}
+#contact{
+ width: 100%;
+ height: 60%;
+ background-color: rgba(61, 147, 121);
+ overflow: hidden;
+}
+
+.carousel, .carousel-inner, .carousel-item, .about_wraper, .tab-pane, .tab-content, .services_wraper, .services_wraper-content{
+ width: 100%;
+ height: 100%;
+}
+
+.footer-wraper{
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ padding: 20px;
+ height: 100%;
+ margin: 0 -10px;
+}
+
+.footer-item{
+ display: flex;
+ justify-content: center;
+ width: 100%;
+ height: 100%;
+ padding: 10px 20px;
+   h3{
+    text-align: center;
+    text-transform: uppercase;
+   }
+}
+
+.footer__map{
+ height: 100%;
+}
+
+.footer__contact{
+ text-align: left;
+ width: 100%;
+}
+
+.footer__copyrite{
+ display: flex;
+ width: 100%;
+}
+.ulFlex{
+    flex: 1 1 auto;
+    ul{
+     list-style: none;
+     padding: 0;
+     text-align: left;
+    }
+}
+.footer__copyrite{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.copyrite{
+ text-align: right;
+ font-size: 0.75rem;
+}
+
+.slogan {
+	text-align: left;
+    position: absolute;
+    top: 20vh;
+    left: 10%;
+    z-index: 20;
+    width: 50%;
+}
+.d-block{
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+}
+
+.cstOverlay{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: linear-gradient(
+        165deg,
+        hsl(210, 16.7%, 97.6%) 0%,
+        hsla(210, 16.7%, 97.6%, 0.995) 8.2%,
+        hsla(210, 16.7%, 97.6%, 0.981) 16%,
+        hsla(210, 16.7%, 97.6%, 0.958) 23.4%,
+        hsla(210, 16.7%, 97.6%, 0.926) 30.4%,
+        hsla(210, 16.7%, 97.6%, 0.885) 37.3%,
+        hsla(210, 16.7%, 97.6%, 0.835) 43.8%,
+        hsla(210, 16.7%, 97.6%, 0.776) 50.2%,
+        hsla(210, 16.7%, 97.6%, 0.709) 56.5%,
+        hsla(210, 16.7%, 97.6%, 0.633) 62.6%,
+        hsla(210, 16.7%, 97.6%, 0.548) 68.7%,
+        hsla(210, 16.7%, 97.6%, 0.455) 74.8%,
+        hsla(210, 16.7%, 97.6%, 0.354) 81%,
+        hsla(210, 16.7%, 97.6%, 0.244) 87.2%,
+        hsla(210, 16.7%, 97.6%, 0.126) 93.5%,
+        hsla(210, 16.7%, 97.6%, 0) 100%
+      ) left center/100% no-repeat;
+    z-index: 10;
+}
+.carousel-control-prev, .carousel-control-next{
+    z-index: 11;
+}
+
+.invert{
+    width: 40vw;
+    position: absolute;
+    bottom: 4.25rem;
+    left: 50%;
+    z-index: 11;
+}
+
+.carousel-caption{
+    z-index: 11;
+    text-align: right;
+    bottom: 4rem;
+}
+.cstm__container{
+    height: calc(100% - 70px); 
+    overflow-y: scroll;
+    margin-top: 10px;
+}
+.listWraper{
+    position: absolute;
+    width: 40%;
+}
+.cstm__container-map{
+    overflow: hidden;
+}
+
+.cstm__container-map::-webkit-scrollbar {
+    display: none;
+}
+.map{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+.map__wraper{
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+}
+
+.geoTeg-wraper{
+    position: relative;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+}
+
+.geoTeg{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.geaTegPosit{
+    top: calc(56% - 13px);
+    left: calc(31% - 13px) ;
+}
+.geaTegPosit1{
+    top: 41%;
+    left: 45%;
+}
+.geaTegPosit2{
+    top: calc(67% - 12px);
+    left: calc(43% - 12px) ;
+}
+.geaTegPosit3{
+    top: calc(53% - 12.5px) ;
+    left: calc(10.5% - 12.5px) ;
+}
+.geaTegPosit4{
+    top: 58%;
+    left: 36%;
+}
+
+.service-item:hover, .geoTeg:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 0.2s ease-out all;
+}
+.service-item:active, .geoTeg:active{
+    transform: scale(0.95);
+    transition: 0.2s ease all;
+}
+
+.listWraper {
+    ul
+    {list-style: none;
+    padding: 0;
+    }
+    li:hover{
+        cursor: pointer;
+        text-shadow: 1px 1px 1px rgba(61, 147, 121,.8);
+    }
+    li:active{
+        text-shadow: none;
+    }
+}
+
+.BGcontainerZJ, .BGcontainerARD, .BGcontainerMSC, .BGcontainerTK, .BGcontainerVC{ 
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+.BGcontainerARD{
+    background-image: url(../img/pic1_1.jpg);
+}
+.BGcontainerMSC{
+    background-image: url(../img/pic1_2.jpg);
+}
+.BGcontainerZJ{
+    background-image: url(../img/pic1_0.jpg);
+}
+.BGcontainerTK{
+    background-image: url(../img/pic1_3.jpg);
+}
+.BGcontainerVC{
+    background-image: url(../img/pic1_4.jpeg);
+}
+
+.Content-wraper{
+    background-color: rgba(255,255,255,.7);
+    width: 100%;
+    height: 100%;
+    color: #181818;
+    padding: 10px;
+    font-weight: 400;
+}
+
+.logo-txt{
+    line-height: 1.2rem;
+    margin-left: 10px;
+}
+.navbar-brand{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.navbar, .navbar-brand{
+    transition: all .5s ease;
+}
+
+#preloader {
+    background: #ffffff;
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 100%;
+    z-index: 1500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-ksr{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    img{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+    }
+}
+.ouyside{
+    animation: rotateOS 2s ease-in-out infinite;
+}
+.inside{
+    animation: rotateIS 2s ease-in-out infinite;
+}
+
+@keyframes rotateOS{
+    0%{
+        transform: rotate(0);
+    }
+    10%{
+        transform: rotate(-5deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+@keyframes rotateIS{
+    0%{
+        transform: rotate(0);
+    }
+    10%{
+        transform: rotate(5deg);
+    }
+    100%{
+        transform: rotate(-360deg);
+    }
+}
+
+.serv__btn{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 120px;
+}
+.txt__wraper{
+    min-width: 50px;
+    text-align: center;
+}
+.me-3{
+    margin-left: 1rem;
+}
+.dgu__wraper{
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.dgu__wraper_img{
+    width: 50%;
+}
+.dgu__wraper_txt{
+    width: 50%;
+}
+.dgu_img{
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+}
