@@ -12305,6 +12305,12 @@ body {
   z-index: 11;
   text-align: right;
   bottom: 4rem;
+  font-family: "oswald";
+  color: rgb(248, 249, 250);
+  text-shadow: -1px 1px 2px #000, rgb(10, 10, 10) 1px 0 5px;
+}
+.carousel-caption h2, .carousel-caption .h2 {
+  text-transform: uppercase;
 }
 
 .cstm__container {
