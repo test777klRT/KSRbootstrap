@@ -12126,6 +12126,7 @@ a {
 
 .nav-link {
   color: #666;
+  text-transform: uppercase;
 }
 
 .nav-link:hover {
@@ -12146,6 +12147,29 @@ body {
   --bs-nav-pills-border-radius: 1rem;
   --bs-nav-pills-link-active-color: #fff;
   --bs-nav-pills-link-active-bg: rgba(61, 147, 121,.4);
+}
+
+.slogan h2, .slogan .h2 {
+  color: #0d9343;
+  font-size: calc(1rem + 1.5vw);
+  font-weight: 300;
+}
+.slogan h4, .slogan .h4 {
+  /* font-size: calc(1rem + 0.3vw); */
+  font-weight: 300;
+  color: rgba(0, 0, 0, 0.9);
+}
+.slogan h4 img, .slogan .h4 img {
+  position: relative;
+  top: -3px;
+  margin-right: 5px;
+}
+.slogan h6, .slogan .h6 {
+  font-weight: 300;
+  font-size: 1rem;
+  text-transform: uppercase;
+  color: #666;
+  margin-bottom: 30px;
 }
 
 #intro, #about, #services {
@@ -12186,6 +12210,8 @@ body {
 .footer-item {
   display: flex;
   justify-content: center;
+  color: #fff;
+  font-size: 1.25rem;
   width: 100%;
   height: 100%;
   padding: 10px 20px;
@@ -12193,6 +12219,12 @@ body {
 .footer-item h3, .footer-item .h3 {
   text-align: center;
   text-transform: uppercase;
+  font-family: "Oswald", sans-serif;
+  letter-spacing: 0.05rem;
+  margin-bottom: 20px;
+}
+.footer-item a {
+  color: #9efb79;
 }
 
 .footer__map {
