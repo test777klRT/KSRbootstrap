@@ -12226,6 +12226,9 @@ body {
 .footer-item a {
   color: #9efb79;
 }
+.footer-item a:hover {
+  color: #3b662a;
+}
 
 .footer__map {
   height: 100%;
